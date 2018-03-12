@@ -3,6 +3,7 @@
 
 LoRaWANClient client;
 
+//一回だけ実行
 void setup() {
   Serial.begin(9600);
   Serial.print("Connecting ... ");
